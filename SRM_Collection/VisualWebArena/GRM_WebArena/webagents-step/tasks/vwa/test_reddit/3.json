@@ -1,0 +1,36 @@
+{
+  "sites": [
+    "reddit"
+  ],
+  "task_id": 3,
+  "require_login": true,
+  "storage_state": "./.auth/reddit_state.json",
+  "start_url": "http://127.0.0.1:9999/f/food",
+  "geolocation": null,
+  "intent_template": "I'm trying to do some research about the post with this image. Tell me how many comments mention the word \"{{word}}\".",
+  "intent": "I'm trying to do some research about the post with this image. Tell me how many comments mention the word \"spicy\".",
+  "image": "environment_docker/webarena-homepage/static/input_images/reddit/task_3/input_0.png",
+  "instantiation_dict": {
+    "word": "spicy"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "must_include": [
+        "11"
+      ]
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": "11"
+  },
+  "reasoning_difficulty": "medium",
+  "visual_difficulty": "easy",
+  "overall_difficulty": "easy",
+  "comments": "product image provided, and need to find the post and count all comments",
+  "intent_template_id": 1
+}

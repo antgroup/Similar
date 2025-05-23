@@ -1,0 +1,32 @@
+{
+  "sites": [
+    "shopping"
+  ],
+  "task_id": 356,
+  "require_login": true,
+  "storage_state": "./.auth/shopping_state.json",
+  "start_url": "http://127.0.0.1:7770/clothing-shoes-jewelry/men/clothing.html?p=16",
+  "geolocation": null,
+  "intent_template": "Find me {{category}} that is of the same brand as the product in this image. It needs to {{description}}.",
+  "intent": "Find me a hoodie that is of the same brand as the product in this image. It needs to have the brand logo in multicolor.",
+  "image": "environment_docker/webarena-homepage/static/input_images/shopping/task_356/input_0.png",
+  "instantiation_dict": {
+    "category": "a hoodie",
+    "description": "have the brand logo in multicolor"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "url_match"
+    ],
+    "reference_answers": null,
+    "reference_url": "http://127.0.0.1:7770/coca-cola-horizon-stripe-logo-men-s-hooded-sweatshirt-white.html",
+    "program_html": [],
+    "url_note": "EXACT"
+  },
+  "intent_template_id": 118,
+  "reasoning_difficulty": "medium",
+  "visual_difficulty": "hard",
+  "overall_difficulty": "hard",
+  "comments": ""
+}

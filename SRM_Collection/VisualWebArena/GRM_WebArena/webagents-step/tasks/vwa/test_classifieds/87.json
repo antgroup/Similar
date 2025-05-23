@@ -1,0 +1,32 @@
+{
+  "sites": [
+    "classifieds"
+  ],
+  "task_id": 87,
+  "require_login": true,
+  "storage_state": "./.auth/classifieds_state.json",
+  "start_url": "http://127.0.0.1:9980/index.php?page=search&sCategory=15&sOrder=i_price&iOrderType=desc&iPage=5",
+  "geolocation": null,
+  "intent_template": "Find the {{item}} on this page {{condition}}.",
+  "intent": "Find the most similar item on this page as shown in this image.",
+  "image": "environment_docker/webarena-homepage/static/input_images/classifieds/task_87/input_0.png",
+  "instantiation_dict": {
+    "item": "most similar item",
+    "condition": "as shown in this image"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "url_match"
+    ],
+    "reference_answers": null,
+    "reference_url": "http://127.0.0.1:9980/index.php?page=item&id=34463",
+    "program_html": [],
+    "url_note": "EXACT"
+  },
+  "reasoning_difficulty": "easy",
+  "visual_difficulty": "medium",
+  "overall_difficulty": "easy",
+  "comments": "",
+  "intent_template_id": 34
+}

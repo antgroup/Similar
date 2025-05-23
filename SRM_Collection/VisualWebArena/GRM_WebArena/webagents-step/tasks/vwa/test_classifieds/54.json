@@ -1,0 +1,32 @@
+{
+  "sites": [
+    "classifieds"
+  ],
+  "task_id": 54,
+  "require_login": true,
+  "storage_state": "./.auth/classifieds_state.json",
+  "start_url": "http://127.0.0.1:9980",
+  "geolocation": null,
+  "intent_template": "Find the most recently listed item in the \"{{category}}\" category that {{condition}}.",
+  "intent": "Find the most recently listed item in the \"Video gaming\" category that is related to this game I used to play.",
+  "image": "environment_docker/webarena-homepage/static/input_images/classifieds/task_54/input_0.png",
+  "instantiation_dict": {
+    "category": "Video gaming",
+    "condition": "is related to this game I used to play"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "url_match"
+    ],
+    "reference_answers": null,
+    "reference_url": "http://127.0.0.1:9980/index.php?page=item&id=787",
+    "program_html": [],
+    "url_note": "EXACT"
+  },
+  "reasoning_difficulty": "easy",
+  "visual_difficulty": "easy",
+  "overall_difficulty": "easy",
+  "comments": "",
+  "intent_template_id": 22
+}

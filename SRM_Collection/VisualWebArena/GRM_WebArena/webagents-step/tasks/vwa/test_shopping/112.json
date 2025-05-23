@@ -1,0 +1,40 @@
+{
+  "sites": [
+    "shopping"
+  ],
+  "task_id": 112,
+  "require_login": true,
+  "storage_state": "./.auth/shopping_state.json",
+  "start_url": "http://127.0.0.1:7770/",
+  "geolocation": null,
+  "intent_template": "Add this exact product to my shopping cart. I think it is in the \"{{category}}\" category.",
+  "intent": "Add this exact product to my shopping cart. I think it is in the \"Dining & Entertaining\" category.",
+  "image": "environment_docker/webarena-homepage/static/input_images/shopping/task_112/input_0.png",
+  "instantiation_dict": {
+    "category": "Dining & Entertaining"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": [
+      {
+        "url": "http://127.0.0.1:7770/checkout/cart",
+        "locator": "",
+        "required_contents": {
+          "must_include": [
+            "Reston Lloyd Plastic Tumbler Corelle Coordinates, Timber Shadows, 8oz Acrylic Drinkware, Set of 6, Juice, Clear"
+          ]
+        }
+      }
+    ]
+  },
+  "intent_template_id": 34,
+  "reasoning_difficulty": "hard",
+  "visual_difficulty": "hard",
+  "comments": "need to process exact image",
+  "overall_difficulty": "hard"
+}

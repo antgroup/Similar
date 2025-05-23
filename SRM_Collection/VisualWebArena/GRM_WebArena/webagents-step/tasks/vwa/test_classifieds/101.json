@@ -1,0 +1,32 @@
+{
+  "sites": [
+    "classifieds"
+  ],
+  "task_id": 101,
+  "require_login": true,
+  "storage_state": "./.auth/classifieds_state.json",
+  "start_url": "http://127.0.0.1:9980",
+  "geolocation": null,
+  "intent_template": "Explore the \"{{category}}\" category, and find the {{item}} in this image.",
+  "intent": "Explore the \"Art + crafts\" category, and find the most expensive painting of the city in this image.",
+  "image": "environment_docker/webarena-homepage/static/input_images/classifieds/task_101/input_0.png",
+  "instantiation_dict": {
+    "category": "Art + crafts",
+    "item": "most expensive painting of the city"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "url_match"
+    ],
+    "reference_answers": null,
+    "reference_url": "http://127.0.0.1:9980/index.php?page=item&id=83533",
+    "program_html": [],
+    "url_note": "EXACT"
+  },
+  "reasoning_difficulty": "medium",
+  "visual_difficulty": "hard",
+  "overall_difficulty": "hard",
+  "comments": "",
+  "intent_template_id": 39
+}

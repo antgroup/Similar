@@ -1,0 +1,38 @@
+{
+  "sites": [
+    "reddit"
+  ],
+  "task_id": 110,
+  "require_login": false,
+  "storage_state": "./.auth/reddit_state.json",
+  "start_url": "http://127.0.0.1:9999",
+  "geolocation": null,
+  "intent_template": "Send a direct message to the user that created the post that contains the following picture.",
+  "intent": "Send a direct message to the user that created the post that contains the following picture.",
+  "image": [
+    "environment_docker/webarena-homepage/static/input_images/reddit/task_110/input_0.png"
+  ],
+  "instantiation_dict": {},
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "program_html": [
+      {
+        "url": "http://127.0.0.1:9999/messages",
+        "locator": "func:get_query_text(__page__, '.table')",
+        "required_contents": {
+          "must_include": [
+            "lostinam3rica"
+          ]
+        }
+      }
+    ]
+  },
+  "intent_template_id": 43,
+  "reasoning_difficulty": "medium",
+  "visual_difficulty": "easy",
+  "overall_difficulty": "easy",
+  "comments": "http://127.0.0.1:9999/38612"
+}

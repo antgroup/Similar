@@ -1,0 +1,29 @@
+{
+  "sites": [
+    "reddit"
+  ],
+  "task_id": 0,
+  "require_login": true,
+  "storage_state": "./.auth/reddit_state.json",
+  "start_url": "http://127.0.0.1:9999/f/food",
+  "geolocation": null,
+  "intent_template": "I'm trying to find this post. Navigate to the cxfomment section for it.",
+  "intent": "I'm trying to find this post. Navigate to the comment section for it.",
+  "image": "environment_docker/webarena-homepage/static/input_images/reddit/task_0/input_0.png",
+  "instantiation_dict": {},
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "url_match"
+    ],
+    "reference_answers": null,
+    "reference_url": "http://127.0.0.1:9999/f/food/82896",
+    "program_html": [],
+    "url_note": "GOLD in PRED"
+  },
+  "reasoning_difficulty": "easy",
+  "visual_difficulty": "medium",
+  "overall_difficulty": "easy",
+  "comments": "post is near the top, can be done without exact image understanding",
+  "intent_template_id": 0
+}

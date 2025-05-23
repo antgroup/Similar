@@ -1,0 +1,32 @@
+{
+  "sites": [
+    "reddit"
+  ],
+  "task_id": 132,
+  "require_login": false,
+  "storage_state": "./.auth/reddit_state.json",
+  "start_url": "http://127.0.0.1:9999",
+  "geolocation": null,
+  "intent_template": "How many comments did the post with this image receive? I remember it being one of the top 50 hot posts of {{forum}}.",
+  "intent": "How many comments did the post with this image receive? I remember it being one of the top 50 hot posts of /f/nyc.",
+  "image": "environment_docker/webarena-homepage/static/input_images/reddit/task_132/input_0.png",
+  "instantiation_dict": {
+    "forum": "/f/nyc"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "must_include": [
+        "146"
+      ]
+    }
+  },
+  "intent_template_id": 52,
+  "reasoning_difficulty": "medium",
+  "visual_difficulty": "easy",
+  "overall_difficulty": "medium",
+  "comments": "http://127.0.0.1:9999/f/nyc/88264"
+}

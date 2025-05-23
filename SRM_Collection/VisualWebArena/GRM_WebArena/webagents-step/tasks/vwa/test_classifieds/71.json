@@ -1,0 +1,32 @@
+{
+  "sites": [
+    "classifieds"
+  ],
+  "task_id": 71,
+  "require_login": true,
+  "storage_state": "./.auth/classifieds_state.json",
+  "start_url": "http://127.0.0.1:9980",
+  "geolocation": null,
+  "intent_template": "Find the {{product}} which {{detail}}.",
+  "intent": "Find the most expensive item posted from Delaware which is of the same item as in the image.",
+  "image": "environment_docker/webarena-homepage/static/input_images/classifieds/task_71/input_0.png",
+  "instantiation_dict": {
+    "product": "most expensive item posted from Delaware",
+    "detail": "is of the same item as in the image"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "url_match"
+    ],
+    "reference_answers": null,
+    "reference_url": "http://127.0.0.1:9980/index.php?page=item&id=12399 |OR| http://127.0.0.1:9980/index.php?page=item&id=53168",
+    "program_html": [],
+    "url_note": "EXACT"
+  },
+  "reasoning_difficulty": "hard",
+  "visual_difficulty": "medium",
+  "overall_difficulty": "hard",
+  "comments": "",
+  "intent_template_id": 27
+}

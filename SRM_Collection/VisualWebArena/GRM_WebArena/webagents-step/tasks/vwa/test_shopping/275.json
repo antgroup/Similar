@@ -1,0 +1,32 @@
+{
+  "sites": [
+    "shopping"
+  ],
+  "task_id": 275,
+  "require_login": false,
+  "storage_state": "./.auth/shopping_state.json",
+  "start_url": "http://127.0.0.1:7770/",
+  "geolocation": null,
+  "intent_template": "Can you take me to the page that has this {{subject}} {{item}}?",
+  "instantiation_dict": {
+    "subject": "character",
+    "item": "on a phone case"
+  },
+  "intent": "Can you take me to the page that has this character on a phone case?",
+  "image": "environment_docker/webarena-homepage/static/input_images/shopping/task_275/input_0.png",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "url_match"
+    ],
+    "reference_answers": null,
+    "reference_url": "http://127.0.0.1:7770/anime-girls-phone-case-nezuko-phone-case-anime-phone-case-for-iphone-12-compatible-from-iphone-7-series-to-13-series-cases-comes-with-a-keychain-mdz-12.html",
+    "program_html": [],
+    "url_note": "EXACT"
+  },
+  "intent_template_id": 91,
+  "reasoning_difficulty": "hard",
+  "visual_difficulty": "medium",
+  "comments": "",
+  "overall_difficulty": "hard"
+}
