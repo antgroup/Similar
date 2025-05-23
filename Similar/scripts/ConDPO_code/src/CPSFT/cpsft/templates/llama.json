@@ -1,6 +1,0 @@
-{
-    "description": "Template used by Meta llama.",
-    "prompt_input": "[INST]{instruction}\n{input}[/INST]",
-    "prompt_no_input": "[INST]{instruction}[/INST]",
-    "response_split": "[/INST]"
-}
