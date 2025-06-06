@@ -14,7 +14,6 @@ Bingchen Miao<sup>1,2</sup>*, Yang Wu<sup>2</sup>*, Minghe Gao<sup>1</sup>*, Qif
 <sup>1</sup>Zhejiang University, <sup>2</sup>Ant Group, <sup>3</sup>National University of Singapore
 
 \*Equal Contribution.
-</div>
 
 [![arXiv](https://img.shields.io/badge/arXiv-2503.18665-b31b1b?logo=arxiv)](https://arxiv.org/abs/2503.18665)
 [![Page](https://img.shields.io/badge/Home-Page-009BD5?logo=homepage)](https://dcd-ant-similar.github.io/)
