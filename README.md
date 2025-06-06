@@ -16,7 +16,11 @@ Bingchen Miao<sup>1,2</sup>*, Yang Wu<sup>2</sup>*, Minghe Gao<sup>1</sup>*, Qif
 \*Equal Contribution.
 </div>
 
-
+[![arXiv](https://img.shields.io/badge/arXiv-2503.18665-b31b1b?logo=arxiv)](https://arxiv.org/abs/2503.18665)
+[![Page](https://img.shields.io/badge/Home-Page-009BD5?logo=homepage)](https://dcd-ant-similar.github.io/)
+[![GitHub](https://img.shields.io/badge/GitHub-Repo-181717?logo=github)](https://github.com/antgroup/Similar)
+<img src="https://img.shields.io/github/last-commit/antgroup/Similar?color=#F38020">
+</div>
 
 ## 📖 Introduction
 Welcome to the official repository for the paper "Boosting Virtual Agent Learning and Reasoning: A Step-wise, Multi-dimensional, and Generalist Reward Model with Benchmark". In this work, we propose **Similar**, a **S**tep-w**i**se **M**ult**i**-dimensiona**l** Gener**a**list **R**eward Model designed to enhance the training and reasoning capabilities of Generalist Virtual Agents (GVAs) powered by Multimodal Large Language Models (MLLMs). This project addresses critical limitations in current GVA training paradigms, such as the reliance on outcome supervision and labor-intensive human annotations, by introducing a novel approach to fine-grained, step-wise supervision. We are excited to open-source our **Similar** reward model and the ***SRMEval*** test dataset, providing the research community with valuable resources to advance the development of virtual agents.
