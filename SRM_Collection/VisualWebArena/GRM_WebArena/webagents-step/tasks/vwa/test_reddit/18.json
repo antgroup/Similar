@@ -1,0 +1,29 @@
+{
+  "sites": [
+    "reddit"
+  ],
+  "task_id": 18,
+  "require_login": true,
+  "storage_state": "./.auth/reddit_state.json",
+  "start_url": "http://127.0.0.1:9999/forums/all",
+  "geolocation": null,
+  "intent_template": "Navigate to a subreddit where I can find the most similar content to this image.",
+  "intent": "Navigate to a subreddit where I can find the most similar content to this image.",
+  "image": "environment_docker/webarena-homepage/static/input_images/reddit/task_18/input_0.png",
+  "instantiation_dict": {},
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "url_match"
+    ],
+    "reference_answers": null,
+    "reference_url": "http://127.0.0.1:9999/f/MechanicalKeyboards",
+    "program_html": [],
+    "url_note": "GOLD in PRED"
+  },
+  "reasoning_difficulty": "medium",
+  "visual_difficulty": "easy",
+  "overall_difficulty": "medium",
+  "comments": "medium: product image provided, and need to find the mechanical keyboards subreddit",
+  "intent_template_id": 7
+}

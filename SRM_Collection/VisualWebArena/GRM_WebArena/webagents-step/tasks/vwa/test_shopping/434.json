@@ -1,0 +1,40 @@
+{
+  "sites": [
+    "shopping"
+  ],
+  "task_id": 434,
+  "require_login": true,
+  "storage_state": "./.auth/shopping_state.json",
+  "start_url": "http://127.0.0.1:7770",
+  "geolocation": null,
+  "intent_template": "Find me the cheapest {{property}} version of the thing in this image and add it to my cart please.",
+  "intent": "Find me the cheapest thick, original version of the thing in this image and add it to my cart please.",
+  "image": "environment_docker/webarena-homepage/static/input_images/shopping/task_434/input_0.png",
+  "instantiation_dict": {
+    "property": "thick, original"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": [
+      {
+        "url": "http://127.0.0.1:7770/checkout/cart",
+        "locator": "",
+        "required_contents": {
+          "must_include": [
+            "REESE'S Peanut Butter Cups, Milk Chocolate, Snack Size (Pack of 2 Pounds)"
+          ]
+        }
+      }
+    ]
+  },
+  "intent_template_id": 138,
+  "reasoning_difficulty": "hard",
+  "visual_difficulty": "hard",
+  "overall_difficulty": "hard",
+  "comments": ""
+}

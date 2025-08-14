@@ -1,0 +1,29 @@
+{
+  "sites": [
+    "reddit"
+  ],
+  "task_id": 30,
+  "require_login": true,
+  "storage_state": "./.auth/reddit_state.json",
+  "start_url": "http://127.0.0.1:9999/forums/all",
+  "geolocation": null,
+  "intent_template": "Find the user who posted this and navigate to the comments section of one of their other posts.",
+  "intent": "Find the user who posted this and navigate to the comments section of one of their other posts.",
+  "image": "environment_docker/webarena-homepage/static/input_images/reddit/task_30/input_0.png",
+  "instantiation_dict": {},
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "url_match"
+    ],
+    "reference_answers": null,
+    "reference_url": "http://127.0.0.1:9999/f/gaming/105429",
+    "program_html": [],
+    "url_note": "GOLD in PRED"
+  },
+  "reasoning_difficulty": "hard",
+  "visual_difficulty": "medium",
+  "overall_difficulty": "hard",
+  "comments": "hard: need to navigate to the appropriate subreddit (based off gaming content), identify the correct user, and navigate to their other posts. Original URL: http://127.0.0.1:9999/f/gaming/126114/oc-loot",
+  "intent_template_id": 12
+}

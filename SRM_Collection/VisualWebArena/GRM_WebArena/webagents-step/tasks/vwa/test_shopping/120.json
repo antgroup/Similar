@@ -1,0 +1,40 @@
+{
+  "sites": [
+    "shopping"
+  ],
+  "task_id": 120,
+  "require_login": true,
+  "storage_state": "./.auth/shopping_state.json",
+  "start_url": "http://127.0.0.1:7770/",
+  "geolocation": null,
+  "intent_template": "Add this exact product to my wish list. I think it might be in the \"{{category}}\" category but I'm not certain.",
+  "intent": "Add this exact product to my wish list. I think it might be in the \"Home D\u00e9cor Products\" category but I'm not certain.",
+  "image": "environment_docker/webarena-homepage/static/input_images/shopping/task_120/input_0.png",
+  "instantiation_dict": {
+    "category": "Home D\u00e9cor Products"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": [
+      {
+        "url": "http://127.0.0.1:7770/wishlist/?limit=50",
+        "locator": "document.querySelector('.products-grid.wishlist').textContent",
+        "required_contents": {
+          "must_include": [
+            "Dutsekk LED Bathroom Mirror Anti-Fog - 36x28 Inch Dimmable IP44 Waterproof Bathroom Mirror with Lights - Lighted Bathroom Vanity Mirror for Wall with CCT Adjustable for Makeup"
+          ]
+        }
+      }
+    ]
+  },
+  "intent_template_id": 35,
+  "reasoning_difficulty": "hard",
+  "visual_difficulty": "hard",
+  "comments": "need to process exact image, product is actually in the Bathroom Accessories category",
+  "overall_difficulty": "hard"
+}

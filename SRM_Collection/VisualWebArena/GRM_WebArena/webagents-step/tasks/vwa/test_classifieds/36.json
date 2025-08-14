@@ -1,0 +1,36 @@
+{
+  "sites": [
+    "classifieds",
+    "shopping"
+  ],
+  "task_id": 36,
+  "require_login": true,
+  "storage_state": "./.auth/classifieds_state.json",
+  "start_url": "http://127.0.0.1:9980 |AND| http://127.0.0.1:7770",
+  "geolocation": null,
+  "intent_template": "Find all listings for this exact item on OSClass and compare its price to the cheapest listing on OneStopMarket. Return the link of {{target}}.",
+  "intent": "Find all listings for this exact item on OSClass and compare its price to the cheapest listing on OneStopMarket. Return the link of the cheaper item.",
+  "image": "environment_docker/webarena-homepage/static/input_images/classifieds/task_36/input_0.png",
+  "instantiation_dict": {
+    "target": "the cheaper item"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "must_include": [
+        "http://127.0.0.1:7770/luigi-s-mansion-3-nintendo-switch.html"
+      ]
+    },
+    "reference_url": "",
+    "program_html": [],
+    "string_note": ""
+  },
+  "reasoning_difficulty": "hard",
+  "visual_difficulty": "easy",
+  "overall_difficulty": "hard",
+  "comments": "",
+  "intent_template_id": 14
+}

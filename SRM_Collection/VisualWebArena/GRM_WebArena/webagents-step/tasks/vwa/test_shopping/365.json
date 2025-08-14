@@ -1,0 +1,41 @@
+{
+  "sites": [
+    "shopping"
+  ],
+  "task_id": 365,
+  "require_login": true,
+  "storage_state": "./.auth/shopping_state.json",
+  "start_url": "http://127.0.0.1:7770/home-kitchen.html",
+  "geolocation": null,
+  "intent_template": "Buy the {{product}} with {{detail}}.",
+  "intent": "Buy the TV with the animal from the image on its display.",
+  "instantiation_dict": {
+    "product": "TV",
+    "detail": "the animal from the image on its display"
+  },
+  "image": "environment_docker/webarena-homepage/static/input_images/shopping/task_365/input_0.png",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": [
+      {
+        "url": "func:shopping_get_latest_order_url()",
+        "locator": "document.querySelector(\".order-details-items.ordered\").outerText",
+        "required_contents": {
+          "must_include": [
+            "B089GT7Z5Z"
+          ]
+        }
+      }
+    ]
+  },
+  "intent_template_id": 122,
+  "reasoning_difficulty": "medium",
+  "visual_difficulty": "medium",
+  "overall_difficulty": "medium",
+  "comments": ""
+}

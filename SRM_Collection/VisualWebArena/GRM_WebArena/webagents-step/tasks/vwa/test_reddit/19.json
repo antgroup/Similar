@@ -1,0 +1,40 @@
+{
+  "sites": [
+    "reddit"
+  ],
+  "task_id": 19,
+  "require_login": true,
+  "storage_state": "./.auth/reddit_state.json",
+  "start_url": "http://127.0.0.1:9999/forums/all",
+  "geolocation": null,
+  "intent_template": "Find and upvote this post. I think it was posted in {{forum}}.",
+  "intent": "Find and upvote this post. I think it was posted in /f/GetMotivated.",
+  "image": "environment_docker/webarena-homepage/static/input_images/reddit/task_19/input_0.png",
+  "instantiation_dict": {
+    "forum": "/f/GetMotivated"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": [
+      {
+        "url": "http://127.0.0.1:9999/f/GetMotivated/76904/image-you-are-tomorrow",
+        "locator": "document.querySelectorAll('div.submission__vote')[0].querySelector('form').getAttribute('class')",
+        "required_contents": {
+          "must_include": [
+            "vote vote--user-upvoted"
+          ]
+        }
+      }
+    ]
+  },
+  "reasoning_difficulty": "hard",
+  "visual_difficulty": "medium",
+  "overall_difficulty": "hard",
+  "comments": "hard: product image provided, need to find the correct post and upvote it",
+  "intent_template_id": 8
+}

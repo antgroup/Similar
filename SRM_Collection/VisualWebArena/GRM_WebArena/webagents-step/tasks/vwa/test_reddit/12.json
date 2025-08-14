@@ -1,0 +1,29 @@
+{
+  "sites": [
+    "reddit"
+  ],
+  "task_id": 12,
+  "require_login": true,
+  "storage_state": "./.auth/reddit_state.json",
+  "start_url": "http://127.0.0.1:9999/forums/all",
+  "geolocation": null,
+  "intent_template": "Can you help me find and navigate to the comments section of the post with this image?",
+  "intent": "Can you help me find and navigate to the comments section of the post with this image?",
+  "image": "environment_docker/webarena-homepage/static/input_images/reddit/task_12/input_0.png",
+  "instantiation_dict": {},
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "url_match"
+    ],
+    "reference_answers": null,
+    "reference_url": "http://127.0.0.1:9999/f/pittsburgh/46057",
+    "program_html": [],
+    "url_note": "GOLD in PRED"
+  },
+  "reasoning_difficulty": "hard",
+  "visual_difficulty": "hard",
+  "overall_difficulty": "hard",
+  "comments": "hard: product image provided, need OCR to identify that it's of Pittsburgh, navigate to that subreddit, and click on the post",
+  "intent_template_id": 4
+}

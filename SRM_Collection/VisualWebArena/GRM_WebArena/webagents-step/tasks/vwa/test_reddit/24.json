@@ -1,0 +1,35 @@
+{
+  "sites": [
+    "reddit"
+  ],
+  "task_id": 24,
+  "require_login": true,
+  "storage_state": "./.auth/reddit_state.json",
+  "start_url": "http://127.0.0.1:9999/forums/all",
+  "geolocation": null,
+  "intent_template": "Find this post and tell me what the top comment says.",
+  "intent": "Find this post and tell me what the top comment says.",
+  "image": "environment_docker/webarena-homepage/static/input_images/reddit/task_24/input_0.png",
+  "instantiation_dict": {},
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "must_include": [
+        "Nah fam, that's a",
+        "psychonaut"
+      ]
+    },
+    "reference_url": "http://127.0.0.1:9999/f/pics/45632/-/comment/792645",
+    "program_html": [],
+    "string_note": "",
+    "reference_answer_raw_annotation": "Nah fam, that's a psychonaut"
+  },
+  "intent_template_id": 9,
+  "reasoning_difficulty": "hard",
+  "visual_difficulty": "medium",
+  "overall_difficulty": "hard",
+  "comments": "hard: image provided, need to find the correct post and identify the top comment."
+}

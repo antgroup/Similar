@@ -1,0 +1,38 @@
+{
+  "sites": [
+    "reddit"
+  ],
+  "task_id": 188,
+  "require_login": true,
+  "storage_state": "./.auth/reddit_state.json",
+  "start_url": "http://127.0.0.1:9999",
+  "geolocation": null,
+  "intent_template": "Can you subscribe me to the most suitable forum where I can find more posts like in the image?",
+  "image": "environment_docker/webarena-homepage/static/input_images/reddit/task_188/input_0.png",
+  "instantiation_dict": {},
+  "intent": "Can you subscribe me to the most suitable forum where I can find more posts like in the image?",
+  "require_reset": true,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": [
+      {
+        "url": "http://127.0.0.1:9999",
+        "locator": "func:get_query_text(__page__, \"#sidebar > section > ul\")",
+        "required_contents": {
+          "must_include": [
+            "iphone |OR| technology"
+          ]
+        }
+      }
+    ]
+  },
+  "reasoning_difficulty": "easy",
+  "visual_difficulty": "easy",
+  "overall_difficulty": "easy",
+  "comments": "",
+  "intent_template_id": 79
+}

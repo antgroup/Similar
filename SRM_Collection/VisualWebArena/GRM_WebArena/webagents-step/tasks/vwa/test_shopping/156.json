@@ -1,0 +1,32 @@
+{
+  "sites": [
+    "shopping"
+  ],
+  "task_id": 156,
+  "require_login": false,
+  "storage_state": "./.auth/shopping_state.json",
+  "start_url": "http://127.0.0.1:7770",
+  "geolocation": null,
+  "intent_template": "Find me {{category}} of the same brand as the product in this picture. It needs to {{description}}.",
+  "intent": "Find me a printer of the same brand as the product in this picture. It needs to be white and have at least 11 reviews with an average rating greater than 4.",
+  "image": "environment_docker/webarena-homepage/static/input_images/shopping/task_156/input_0.png",
+  "instantiation_dict": {
+    "category": "a printer",
+    "description": "be white and have at least 11 reviews with an average rating greater than 4"
+  },
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "url_match"
+    ],
+    "reference_answers": null,
+    "reference_url": "http://127.0.0.1:7770/hp-deskjet-f380-all-in-one-printer-scanner-copier.html",
+    "program_html": [],
+    "url_note": "EXACT"
+  },
+  "intent_template_id": 46,
+  "reasoning_difficulty": "hard",
+  "visual_difficulty": "medium",
+  "overall_difficulty": "hard",
+  "comments": ""
+}

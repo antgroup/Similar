@@ -1,0 +1,29 @@
+{
+  "sites": [
+    "reddit"
+  ],
+  "task_id": 32,
+  "require_login": true,
+  "storage_state": "./.auth/reddit_state.json",
+  "start_url": "http://127.0.0.1:9999/forums/all",
+  "geolocation": null,
+  "intent_template": "Find the user who posted this and navigate to the comments section of one of their other posts.",
+  "intent": "Find the user who posted this and navigate to the comments section of one of their other posts.",
+  "image": "environment_docker/webarena-homepage/static/input_images/reddit/task_32/input_0.png",
+  "instantiation_dict": {},
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "url_match"
+    ],
+    "reference_answers": null,
+    "reference_url": "http://127.0.0.1:9999/f/nyc/44500 |OR| http://127.0.0.1:9999/f/nyc/44527 |OR| http://127.0.0.1:9999/f/pics/89551 |OR| http://127.0.0.1:9999/f/pics/110950 |OR| http://127.0.0.1:9999/f/nyc/130377",
+    "program_html": [],
+    "url_note": "GOLD in PRED"
+  },
+  "reasoning_difficulty": "hard",
+  "visual_difficulty": "medium",
+  "overall_difficulty": "hard",
+  "comments": "hard: need to navigate to the appropriate subreddit (based off DC Wharf), identify the correct user, and navigate to their other posts",
+  "intent_template_id": 12
+}

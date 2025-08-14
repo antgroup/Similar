@@ -1,0 +1,39 @@
+{
+  "sites": [
+    "shopping"
+  ],
+  "task_id": 331,
+  "require_login": false,
+  "storage_state": "./.auth/shopping_state.json",
+  "start_url": "http://127.0.0.1:7770",
+  "geolocation": null,
+  "image": "environment_docker/webarena-homepage/static/input_images/shopping/task_331/input_0.png",
+  "intent_template": "Purchase the exact item shown in the image.",
+  "intent": "Purchase the exact item shown in the image.",
+  "instantiation_dict": {},
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": [
+      {
+        "url": "func:shopping_get_latest_order_url()",
+        "locator": "document.querySelector(\".order-details-items.ordered\").outerText",
+        "required_contents": {
+          "must_include": [
+            "Sony",
+            "Alpha A7 II"
+          ]
+        }
+      }
+    ]
+  },
+  "intent_template_id": 110,
+  "reasoning_difficulty": "medium",
+  "visual_difficulty": "medium",
+  "overall_difficulty": "medium",
+  "comments": "http://127.0.0.1:7770/sony-alpha-a7-ii-digital-camera-body-with-sonnar-t-fe-55mm-f-1-8-za-lens-64gb-card-battery-charger-case-tripod-kit.html"
+}

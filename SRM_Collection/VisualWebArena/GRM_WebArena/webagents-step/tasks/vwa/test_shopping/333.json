@@ -1,0 +1,31 @@
+{
+  "sites": [
+    "shopping"
+  ],
+  "task_id": 333,
+  "require_login": false,
+  "storage_state": "./.auth/shopping_state.json",
+  "start_url": "http://127.0.0.1:7770",
+  "geolocation": null,
+  "image": "environment_docker/webarena-homepage/static/input_images/shopping/task_333/input_0.png",
+  "intent_template": "Purchase the exact item shown in the image.",
+  "intent": "Purchase the exact item shown in the image.",
+  "instantiation_dict": {},
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "string_match"
+    ],
+    "reference_answers": {
+      "fuzzy_match": "N/A"
+    },
+    "string_note": "This item does not exist on OneStopMarket.",
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": 110,
+  "reasoning_difficulty": "medium",
+  "visual_difficulty": "easy",
+  "overall_difficulty": "medium",
+  "comments": ""
+}

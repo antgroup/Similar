@@ -1,0 +1,29 @@
+{
+  "sites": [
+    "reddit"
+  ],
+  "task_id": 2,
+  "require_login": true,
+  "storage_state": "./.auth/reddit_state.json",
+  "start_url": "http://127.0.0.1:9999/f/movies",
+  "geolocation": null,
+  "intent_template": "I'm trying to find this post. Navigate to the comment section for it.",
+  "intent": "I'm trying to find this post. Navigate to the comment section for it.",
+  "image": "environment_docker/webarena-homepage/static/input_images/reddit/task_2/input_0.png",
+  "instantiation_dict": {},
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "url_match"
+    ],
+    "reference_answers": null,
+    "reference_url": "http://127.0.0.1:9999/f/movies/107714",
+    "program_html": [],
+    "url_note": "GOLD in PRED"
+  },
+  "reasoning_difficulty": "medium",
+  "visual_difficulty": "easy",
+  "overall_difficulty": "medium",
+  "comments": "medium: need to navigate to the bottom to find this. /f/movies is not all images, but a mix of posts and images",
+  "intent_template_id": 0
+}
