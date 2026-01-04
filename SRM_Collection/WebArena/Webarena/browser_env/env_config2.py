@@ -16,16 +16,23 @@ assert (
 )
 
 
-ACCOUNTS = {
-    "reddit": {"username": "MarvelsGrantMan136", "password": "test1234"},
-    "gitlab": {"username": "byteblaze", "password": "hello1234"},
-    "shopping": {
-        "username": "emma.lopez@gmail.com",
-        "password": "Password.123",
-    },
-    "shopping_admin": {"username": "admin", "password": "admin1234"},
-    "shopping_site_admin": {"username": "admin", "password": "admin1234"},
-}
+# Example account configuration
+# To configure accounts, replace the empty dictionary below with actual
+# account details in the following format:
+#
+# ```python
+# {
+#     "reddit": {"username": "MarvelsGrantMan136", "password": "test1234"},
+#     "gitlab": {"username": "byteblaze", "password": "hello1234"},
+#     "shopping": {
+#         "username": "emma.lopez@gmail.com",
+#         "password": "Password.123",
+#     },
+#     "shopping_admin": {"username": "admin", "password": "admin1234"},
+#     "shopping_site_admin": {"username": "admin", "password": "admin1234"},
+# }
+# ```
+ACCOUNTS = {}
 
 URL_MAPPINGS = {
     SHOPPING: "http://onestopmarket.com",
