@@ -13,7 +13,7 @@ dm-acme
 gym
 
 [testing]
-attrs==20.3.0
+attrs==25.4.0
 gym
 pillow
 pytype
