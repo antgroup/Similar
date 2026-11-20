@@ -78,7 +78,7 @@ nbformat==5.10.4
 nbmake==1.5.5
 nest-asyncio==1.6.0
 networkx==3.6.1
-nltk==3.8.1
+nltk==3.10.4
 nodeenv==1.10.0
 numpy==2.4.0
 openai==2.14.0
